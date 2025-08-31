@@ -15,6 +15,7 @@ data/processed/
 models/
 mlruns/
 submissions/
+catboost_info/
 
 # Common large files
 *.parquet
