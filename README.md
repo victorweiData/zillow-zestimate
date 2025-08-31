@@ -14,9 +14,7 @@ This repository contains a **reproducible workflow** for the Kaggle *Zillow Priz
 
 Place: 283/3772
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 ---
 
