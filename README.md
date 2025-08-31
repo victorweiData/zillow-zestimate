@@ -1,4 +1,23 @@
-# Zillow Zestimate – End‑to‑End Tabular ML Pipeline
+# Zillow Zestimate Prediction 🏠 – End‑to‑End Tabular ML Pipeline
+
+Placed **283 / 3772** in the Kaggle [Zillow Prize: Zestimate Prediction](https://www.kaggle.com/competitions/zillow-prize-1) competition 🎉  
+
+---
+
+## Results  
+
+| Rank | Competitors | Percentile |
+|------|-------------|-------------|
+| 283  | 3772        | Top 7.5%    |
+
+---
+
+## Screenshots  
+
+![Leaderboard placement](images/Screenshot-2025-08-31-1.10.42PM.png)  
+!(images/image.png)  
+!(images/image1.png) 
+
 
 This repository contains a **reproducible workflow** for the Kaggle *Zillow Prize: Home Value Prediction* task:
 - data acquisition & preprocessing
@@ -10,11 +29,7 @@ This repository contains a **reproducible workflow** for the Kaggle *Zillow Priz
 - **notebook** to run the selection + retrain pipeline interactively
 - quick **submission** generation (CatBoost baseline)
 
-> Everything logs to **MLflow** (local file store) so you can compare runs, params, artifacts, and figures.
-
-Place: 283/3772
-
-![alt text](image-3.png)
+> Everything logs to **MLflow** (local file store) so you can compare runs, params, artifacts, and figures. 
 
 ---
 
