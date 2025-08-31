@@ -14,7 +14,7 @@ Placed **283 / 3772** in the Kaggle [Zillow Prize: Zestimate Prediction](https:/
 
 ## Screenshots  
 
-![Leaderboard placement](images/Screenshot-2025-08-31-1.10.42PM.png)  
+![Leaderboard placement](images/image3.png)  
 ![Leaderboard placement](images/image.png)  
 ![Leaderboard placement](images/image1.png) 
 
