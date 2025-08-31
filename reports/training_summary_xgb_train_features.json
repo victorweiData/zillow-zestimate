@@ -1,0 +1,44 @@
+{
+  "experiment_name": "Zillow Baselines",
+  "run_id": "f935256ccb494a888e49ef48eaf9c3bc",
+  "model_type": "XGBoost Base",
+  "data_path": "data/processed/train_features.parquet",
+  "cv_results": {
+    "oof_mae": 0.05938648054141044,
+    "cv_mean": 0.05938647165894508,
+    "cv_std": 0.0015675264738438676,
+    "fold_scores": [
+      0.0616627112030983,
+      0.05724320560693741,
+      0.059938035905361176,
+      0.06003725901246071,
+      0.05805114656686783
+    ]
+  },
+  "params": {
+    "objective": "reg:absoluteerror",
+    "max_depth": 9,
+    "eta": 0.00495217667856147,
+    "subsample": 0.6741095053509962,
+    "colsample_bytree": 0.8691250374025934,
+    "min_child_weight": 95.32187724982603,
+    "reg_lambda": 33.1696891082419,
+    "tree_method": "hist",
+    "seed": 42,
+    "nthread": -1
+  },
+  "feature_count": 194,
+  "top_10_features": [
+    "days_since_prev_sale",
+    "poolcnt",
+    "poolcnt__isna",
+    "pooltypeid2",
+    "taxdelinquencyflag__isna",
+    "pooltypeid2__isna",
+    "taxdelinquencyyear__isna",
+    "propertycountylandusecode__bedroomcnt__median",
+    "fullbathcnt",
+    "finishedsquarefeet12__isna"
+  ],
+  "training_time": "2025-08-29T14:22:27.500950"
+}

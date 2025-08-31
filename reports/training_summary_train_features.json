@@ -1,0 +1,48 @@
+{
+  "experiment_name": "Zillow Baselines",
+  "run_id": "e18320286fe74d04b1b1350e79825749",
+  "model_type": "LightGBM Base",
+  "data_path": "data/processed/train_features.parquet",
+  "cv_results": {
+    "oof_mae": 0.05939699413674423,
+    "cv_mean": 0.05939698534935749,
+    "cv_std": 0.0015610479593711657,
+    "fold_scores": [
+      0.061667857869548766,
+      0.05727022492959481,
+      0.059938214661275205,
+      0.060048448984568334,
+      0.05806018030180031
+    ]
+  },
+  "model_params": {
+    "objective": "mae",
+    "metric": "mae",
+    "num_leaves": 256,
+    "learning_rate": 0.005330619474363085,
+    "feature_fraction": 0.6776964812485791,
+    "bagging_fraction": 0.8174007698287207,
+    "bagging_freq": 1,
+    "min_data_in_leaf": 125,
+    "max_depth": 12,
+    "reg_alpha": 0.00017750398651664634,
+    "reg_lambda": 3.855681796991282e-08,
+    "verbose": -1,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "feature_count": 194,
+  "top_10_features": [
+    "lotsizesquarefeet",
+    "finishedsquarefeet12",
+    "dist_regionidzip_centroid_km",
+    "tax_per_sqft",
+    "structuretaxvaluedollarcnt",
+    "dist_regionidcity_centroid_km",
+    "age_x_sqft",
+    "effective_tax_rate",
+    "taxrate_x_land",
+    "taxamount"
+  ],
+  "training_time": "2025-08-29T14:09:38.563687"
+}

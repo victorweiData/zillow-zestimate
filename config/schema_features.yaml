@@ -1,0 +1,103 @@
+target: logerror
+id: parcelid
+date: transactiondate
+fold_col: fold
+
+exclude:
+  - parcelid
+
+geo_ids:
+  - GEOID
+  - rawcensustractandblock
+  - censustractandblock
+
+flags:  # boolean/indicator
+  - hashottuborspa
+  - fireplaceflag
+  - taxdelinquencyflag
+
+categorical:  # semantically categorical (even if encoded as ints)
+  - airconditioningtypeid
+  - architecturalstyletypeid
+  - buildingclasstypeid
+  - buildingqualitytypeid
+  - decktypeid
+  - fips
+  - heatingorsystemtypeid
+  - pooltypeid10
+  - pooltypeid2
+  - pooltypeid7
+  - propertycountylandusecode
+  - propertylandusetypeid
+  - propertyzoningdesc
+  - regionidcity
+  - regionidcounty
+  - regionidneighborhood
+  - regionidzip
+  - storytypeid
+  - typeconstructiontypeid
+  - GEOID
+
+numeric:  # continuous / counts / monetary / geo coords
+  - basementsqft
+  - bathroomcnt
+  - bedroomcnt
+  - calculatedbathnbr
+  - finishedfloor1squarefeet
+  - calculatedfinishedsquarefeet
+  - finishedsquarefeet12
+  - finishedsquarefeet13
+  - finishedsquarefeet15
+  - finishedsquarefeet50
+  - finishedsquarefeet6
+  - fireplacecnt
+  - fullbathcnt
+  - garagecarcnt
+  - garagetotalsqft
+  - latitude
+  - longitude
+  - lotsizesquarefeet
+  - poolcnt
+  - poolsizesum
+  - rawcensustractandblock
+  - roomcnt
+  - threequarterbathnbr
+  - unitcnt
+  - yardbuildingsqft17
+  - yardbuildingsqft26
+  - yearbuilt
+  - numberofstories
+  - structuretaxvaluedollarcnt
+  - taxvaluedollarcnt
+  - assessmentyear
+  - landtaxvaluedollarcnt
+  - taxamount
+  - taxdelinquencyyear
+  - censustractandblock
+  - year
+  - area_km2
+  - pop_total
+  - med_income
+  - med_rent
+  - med_home_value
+  - edu_bach
+  - edu_mast
+  - edu_prof
+  - edu_phd
+  - unemployed
+  - labor_force
+  - unemp_rate
+  - edu_bach_plus
+  - pop_density
+
+# Optional: columns you plan to standardize for NN
+standardize:
+  - calculatedfinishedsquarefeet
+  - lotsizesquarefeet
+  - taxvaluedollarcnt
+  - landtaxvaluedollarcnt
+  - structuretaxvaluedollarcnt
+  - med_income
+  - med_rent
+  - med_home_value
+  - pop_density

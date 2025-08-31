@@ -1,0 +1,13 @@
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  external_dir: data/external
+  models_dir: models
+target: logerror
+cv:
+  n_folds: 5
+  strategy: time
+  date_col: transactiondate
+  gap_days: 30
+metrics:
+  primary: mae

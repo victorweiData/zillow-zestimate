@@ -1,0 +1,10 @@
+{
+  "bootstrap_type": "MVS",
+  "depth": 6,
+  "learning_rate": 0.02461737772157337,
+  "l2_leaf_reg": 28.319709332133474,
+  "random_strength": 0.3321650976701439,
+  "border_count": 55,
+  "leaf_estimation_iterations": 4,
+  "rsm": 0.8812829974613233
+}

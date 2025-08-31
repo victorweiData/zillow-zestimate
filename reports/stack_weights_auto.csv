@@ -1,0 +1,5 @@
+model,weight
+oof_cat_base,0.255063856813992
+oof_lgb_base,0.3192160932746239
+oof_stack,0.4194288412462673
+oof_xgb_base,0.2812633441543488

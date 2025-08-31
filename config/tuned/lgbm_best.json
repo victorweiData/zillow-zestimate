@@ -1,0 +1,14 @@
+{
+  "max_depth": 12,
+  "learning_rate": 0.005330619474363085,
+  "min_data_in_leaf": 125,
+  "min_split_gain": 0.0011013959361089501,
+  "feature_fraction": 0.6776964812485791,
+  "bagging_fraction": 0.8174007698287207,
+  "bagging_freq": 1,
+  "lambda_l1": 0.00017750398651664634,
+  "lambda_l2": 3.855681796991282e-08,
+  "use_feature_fraction_bynode": true,
+  "feature_fraction_bynode": 0.6291299166621109,
+  "num_leaves": 256
+}

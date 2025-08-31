@@ -1,0 +1,24 @@
+# OS / editors
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Envs
+.venv/
+env/
+.env
+
+# Data & artifacts (keep the repo lean)
+data/raw/
+data/processed/
+models/
+mlruns/
+submissions/
+
+# Common large files
+*.parquet
+*.joblib
+*.pkl
+*.png
+*.pdf

@@ -1,0 +1,47 @@
+{
+  "experiment_name": "Zillow Baselines",
+  "run_id": "3ada76cffd2e4a0c8e8634eedc437380",
+  "model_type": "CatBoost Base",
+  "data_path": "data/processed/train_features.parquet",
+  "cv_results": {
+    "oof_mae": 0.05979601692343058,
+    "cv_mean": 0.05979600916703799,
+    "cv_std": 0.0015445695009395747,
+    "fold_scores": [
+      0.06212908412708831,
+      0.057909346661087234,
+      0.06029368931922791,
+      0.060380466431582534,
+      0.05826745929620395
+    ]
+  },
+  "params": {
+    "loss_function": "MAE",
+    "eval_metric": "MAE",
+    "iterations": 6000,
+    "depth": 6,
+    "learning_rate": 0.02461737772157337,
+    "l2_leaf_reg": 28.319709332133474,
+    "random_seed": 42,
+    "od_type": "Iter",
+    "od_wait": 200,
+    "verbose": false,
+    "thread_count": -1,
+    "bootstrap_type": "Bernoulli",
+    "subsample": 0.8
+  },
+  "feature_count": 194,
+  "top_10_features": [
+    "days_since_prev_sale",
+    "finishedsquarefeet12",
+    "taxamount",
+    "calculatedfinishedsquarefeet",
+    "te_regionidzip",
+    "taxrate_x_land",
+    "effective_tax_rate",
+    "space_efficiency",
+    "tax_per_sqft",
+    "regionidzip"
+  ],
+  "training_time": "2025-08-29T17:44:25.075015"
+}
