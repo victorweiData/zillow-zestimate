@@ -12,6 +12,12 @@ This repository contains a **reproducible workflow** for the Kaggle *Zillow Priz
 
 > Everything logs to **MLflow** (local file store) so you can compare runs, params, artifacts, and figures.
 
+Place: 283/3772
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
 ---
 
 ## 1) Environment
